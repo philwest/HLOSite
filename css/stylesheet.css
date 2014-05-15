@@ -1,0 +1,61 @@
+
+body {
+    margin: 0;
+    font-family:'Petrona', serif;
+    font-size: 100%;
+}
+
+div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
+    font-family:'Petrona', serif;
+
+}
+
+header {
+	background-color: #FFE6C9;
+}
+
+.logo {
+	float: left;
+	margin-right: 3em;
+	margin-left: 2em;
+}
+
+.headertext {
+	font-family: "Petrona", serif;
+	text-align: center;
+	line-height: 1.2;
+	margin-top: 2.2em;
+}
+
+.phonenumbertext {
+	font-family: "P", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	line-height: 0.9;
+	margin-bottom: 0.3em;
+	padding-top: 0.1em;
+}
+
+.navbar {
+	background-color: #555555;	
+}
+
+.navbarlist {
+	width: 100%;
+	float: left;
+	margin-top: 1.5em;
+	margin-right: 2em;
+	list-style: none; }
+
+.navbarlist a {
+	font-size: h3;
+	color: #FFF;
+	margin: 0.8em;
+	padding-top: 3em;
+}
+
+.navbarlist li {
+	float: left; 
+	margin-left: 1.3em;
+	margin-right: 1em;
+	color: #c2510f;}
