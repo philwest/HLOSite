@@ -5,9 +5,7 @@ var monthlyIncome = $('#monthlyincome').val();
 var annualIncome = 12 * monthlyIncome
 
 
-// write if else statements to show if under the threshold
-
-// object with one if-then statement
+// object with one if-then statement to determine if over/under the threshold
 
 var requiresMeansTest = {
     '1': 41354,
@@ -22,13 +20,35 @@ var requiresMeansTest = {
 
 }
 
+allUseCases = [
+
+    {
+        household: 1,
+        married: true,
+        county: 'travis',
+        median: 43934
+    },
+
+]
+
 if annualIncome > requiresMeansTest[sizeOfHousehold] {
-	return <"You'll need to take the Means Test to determine if you're eligible for Chapter 7 bankruptcy. Proceed to the next step.">
+	<"You'll need to take the Means Test to determine if you're eligible for Chapter 7 bankruptcy. Proceed to the next step.">
 }
 
-var travisMedianIncome = {
+// get filing status variable
 
-    
-}
+var filingStatus = $('#filingstatus').val('selectedvalue');
+
+// get county variable
+
+var whichCounty = $('#county').val('selectedvalue');
+
+
+// pass through filingStatus and whichCounty to get median income -- there are 15 possibilities; what's the best solution to get one value? 
+
+
+??var myMedianIncome = getMedianIncome(filingStatus, whichCounty, sizeOfHousehold)
+
+??var getMedianIncome = function(filingStatus, whichCounty, sizeOfHousehold) {
 
 }
