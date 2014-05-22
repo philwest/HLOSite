@@ -53,6 +53,7 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 	color: #FFF;
 }
 
+/*OVERRIDE NOT WORKING, WASSUP*/
 .hloaddress li {
 	color: #c2510f;}
 
@@ -69,7 +70,7 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
     position: absolute;
     top: 12%;
     width: 95.5%;
-    color: #777777;
+    color: #FFFFFF;
     padding-top: 1em;
     padding-bottom: 1em;
     z-index: 1;
@@ -87,11 +88,12 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 	margin-top: 1em;
 }
 
-.lpheadline h3 h4 {
+.lpheadline h3 {
 	font-weight: bold;
 	font-family: "Petrona", serif;
 }
 
+/*OVERRIDE NOT WORKING, WASSUP*/
 .lpsubhead p {
 	font-weight: bold;
 	font-family: "Petrona", serif;
