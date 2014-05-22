@@ -65,10 +65,11 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 
 .tagline {
     text-align: center;
-    background: rgba(167, 123, 51, .4);
+    background: rgba(167, 123, 51, .5);
     position: absolute;
     top: 12%;
     width: 95.5%;
+    color: #777777;
     padding-top: 1em;
     padding-bottom: 1em;
     z-index: 1;
@@ -87,6 +88,11 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 }
 
 .lpheadline h3 h4 {
+	font-weight: bold;
+	font-family: "Petrona", serif;
+}
+
+.lpsubhead p {
 	font-weight: bold;
 	font-family: "Petrona", serif;
 }
