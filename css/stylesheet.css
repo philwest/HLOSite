@@ -54,16 +54,21 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 .leadphoto {
 	display: inline-block;
 	float: left;
-	margin: 1.5em 0em 1.5em 0em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	position: relative;
+	width: 100%;
 }
 
+/* YO, THIS HAS PROBLEMS ONCE YOU REDUCE THE SCREEN WIDTH; can't tagline be 100% and move with photo as width reduces? 
+*/
 .tagline {
     text-align: center;
     color: #FFFFFF;
     background: rgba(167, 123, 51, .5);
     position: absolute;
     top: 12%;
-    width: 95.5%;
+    width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
     z-index: 1;
@@ -77,8 +82,6 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 }
 
 .leadhead {
-	display: inline-block;
-	float: right;
 	margin-top: 1.1em;
 	margin-bottom: 0.8em;
 }
