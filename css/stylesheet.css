@@ -144,9 +144,6 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 	font-style: italic;
 }
 
-.content {
-	font-family: "Libre Baskerville", serif;
-}
 
 .footer {
 	display: block;
@@ -156,7 +153,15 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 }
 
 .footer p {
-	font-family: "Arial", sans-serif;
+	font-family: "Roboto Condensed", sans-serif;
 	color: #FFFFFF;
     float: right;
+}
+
+#panel1 {
+	font-family: "Roboto Condensed", sans-serif;
+}
+
+#panel1 .content {
+	font-family: "Libre Baskerville", serif;
 }
