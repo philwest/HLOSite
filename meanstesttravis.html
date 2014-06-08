@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Heimer Law Offices | Bankruptcy Law | Austin, Texas | Serving Travis, Hays, Williamson, Burnet, and Bastrop Counties | Chapter 7 and Chapter 13 Bankruptcy Filing</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+
+    <!-- Foundation CSS -->
+    <link rel="stylesheet" type='text/css' href="css/normalize.css">
+    <link rel="stylesheet" type='text/css' href="css/foundation.min.css">
+
+    <!-- Unique CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css" />
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <<div class="container header">
+
+            <div class="row">
+                <div class="logobox columns small-12 medium-6">
+                    <img class="logo" src="images/hlologo.jpg" alt="HLO Logo" />
+                </div>
+                <div class="consultbox columns small-12 medium-6">
+                    <img class="logoright" src="images/consultgraphic.jpg" alt="Call 512.291.7105 for a free consultation" />
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <nav class="top-bar" data-topbar>
+        <ul class="title-area">
+            <li class="name"></li>
+            <li class="toggle-topbar menu-icon"></li>
+        </ul>
+
+        <section class="top-bar-section">
+            <ul class="left">
+                <li class="divider"></li>
+                <li><a href="index.html">HOME</a>
+                </li>
+                <li><a href="testimonials.html">TESTIMONIALS</a>
+                </li>
+                <li><a href="chapter7.html">CHAPTER 7</a>
+                </li>
+                <li><a href="chapter13.html">CHAPTER 13</a>
+                </li>
+                <li><a href="faq.html">FAQ</a>
+                </li>
+                <li><a href="meanstesttravis.html">MEANS TEST</a>
+                </li>
+                <li><a href="resources.html">RESOURCES</a>
+                </li>
+            </ul>
+
+        </section>
+    </nav>
+
+    <div class="row">
+
+        <div class="sectionheaderbanner columns small-12">
+            <h3>Means Test</h3>
+        </div>
+
+        <div class="upperbody columns small-12">
+
+            <h4 class="headline">To determine whether someone qualifies for Chapter 7 bankruptcy, a means test is required, which looks at a person's income, debts, and expenses to determine whether he or she has the means to pay off those debts.</h4>
+            <br>
+            <h5 class="headline">While we recommend coming into our office, so we can take you through all the steps in the means test, knowing how your income compares to the median income is an important first step in the process. Use this tool to compare your income to the median income in your county.</h5>
+            <br>
+
+        </div>
+
+
+
+        <div class="clear"></div>
+
+
+        <div class="lowerleftbody columns small-12 large-6">
+
+
+            <form>
+                <div class="row">
+                    <div class="meanstestpartone columns small-12 medium-6">
+                        <label>Select Your Family Size
+                            <select id="familysize">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="meanstestpartone columns small-12 medium-6">
+                        <label>List Your Average
+                            <strong>Gross Monthly</strong>Income (Before Taxes) for Last Six Months
+                            <br>(including income from all sources -- wages, alimony, child support, rental property income, self-employment, family contributions, social security, disability, annuities)
+                            <br>
+                            <br>Enter it below as a numerical figure (don't add a dollar sign or commas):
+
+                            <input id="monthlyincome" type="text" placeholder="0" />
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="meanstestparttwo columns small-12 medium-6">
+                        <label>Select Your County
+                            <select id="county">
+                                <option value="traviscounty">Travis County</option>
+                                <option value="hayscounty">Hays County</option>
+                                <option value="williamsoncounty">Williamson County</option>
+                                <option value="bastropcounty">Bastrop County</option>
+                                <option value="burnetcounty">Burnet County</option>
+                            </select>
+                        </label>
+                    </div>
+
+                </div>
+
+            </form>
+
+            <div class="buttondiv columns small-12 medium-6">
+                <button id="submitInfo">Submit</button>
+            </div>
+
+
+
+        </div>
+
+        <div class="lowerrightbody columns small-12 large-6">
+
+            <h4 class="headline">Are you above or below the median income for your county?</h4>
+            <br>
+            <h5 class="headline">Enter your info and hit the "Submit" button to find out.</h5><p><p>
+
+            <div id="meansTestTravisAnswer"></div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Heimer Law Offices | 512-291-7105 | 6633 U.S. Highway 290 | Austin, TX 78723</p>
+    </div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="foundation.min.js"></script>
+    <script type="text/javascript" src="foundation.topbar.js"></script>
+    <script type="text/javascript" src="meanstesttravis.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
+
+
+</body>
+
+</html>
