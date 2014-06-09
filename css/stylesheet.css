@@ -155,16 +155,15 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 	display: block;
 	background-color: #5a5a5a;
     border: 1px solid #5a5a5a;
+    text-align: right;
     margin-top: 1em;
     width: 100%;
-    height: 3em;
 }
 
 .footer p {
 	font-family: "Roboto Condensed", sans-serif;
 	color: #FFFFFF;
-    float: right;
-    padding-right: 2em;
+    padding-right: 1.5em;
     padding-top: 1em;
 }
 
@@ -178,4 +177,8 @@ div, h1, h2, h3, h4, h5, h6, p, ul, ol, a {
 
 .buttondiv {
 	float: right;
+}
+
+#meanstesttravisanswer {
+	font-size: 24px;
 }
