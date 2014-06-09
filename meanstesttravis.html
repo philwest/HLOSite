@@ -36,7 +36,7 @@
                     <img class="logoright" src="images/consultgraphic.jpg" alt="Call 512.291.7105 for a free consultation" />
                 </div>
             </div>
-        </div>
+            </div>
 
     </header>
 
@@ -77,9 +77,9 @@
 
         <div class="upperbody columns small-12">
 
-            <h4 class="headline">To determine whether someone qualifies for Chapter 7 bankruptcy, a means test is required, which looks at a person's income, debts, and expenses to determine whether he or she has the means to pay off those debts.</h4>
+            <h4 class="headline">There are several factors that help determine which bankruptcy chapter you qualify for and what will be the best fit for your long-term reorganization. These factors include the type of debt you have, your assets, and your budget, as well as the results of your means test.</h4>
             <br>
-            <h5 class="headline">While we recommend coming into our office, so we can take you through all the steps in the means test, knowing how your income compares to the median income is an important first step in the process. Use this tool to compare your income to the median income in your county.</h5>
+            <h5 class="headline">In 2005, the bankruptcy law changed to include the means test, which helps you determine if you have the ability to pay off your debts and if you qualify for a Chapter 7 or Chapter 13 bankruptcy. While we recommend coming into our office, so we can take you through all the steps in the means test, knowing how your income compares to the median income is an important first step in the process. Use this tool to compare your income to the median income in your county. (Note: This online test is intended for informational purposes only, and not as legal advice.)</h5>
             <br>
 
         </div>
@@ -91,40 +91,45 @@
 
         <div class="lowerleftbody columns small-12 large-6">
 
+            <h3 class="headline">Are you above or below the median income for your county?</h4>
+                <br>
+                <h5 class="headline">Enter your info and hit the "Submit" button to find out.</h5>
+                <p>
+                    <p>
 
-            <form>
-                <div class="row">
-                    <div class="meanstestpartone columns small-12 medium-6">
-                        <label>Select Your Family Size
-                            <select id="familysize">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                            </select>
-                        </label>
-                    </div>
-                </div>
+                        <form>
+                            <div class="row">
+                                <div class="meanstestpartone columns small-12 medium-6">
+                                    <label>Select Your Family Size
+                                        <select id="familysize">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
 
-                <div class="row">
-                    <div class="meanstestpartone columns small-12 medium-6">
-                        <label>List Your Average Gross Monthly Income (Before Taxes) for Last Six Months
-                            <br>(including income from all sources -- wages, alimony, child support, rental property income, self-employment, family contributions, social security, disability, annuities)
-                            <br>
-                            <br>Enter it below as a numerical figure (don't add a dollar sign or commas):
+                            <div class="row">
+                                <div class="meanstestpartone columns small-12 medium-6">
+                                    <label>List Your Average Gross Monthly Income (Before Taxes) for Last Six Months
+                                        <br>(including income from all sources -- wages, alimony, child support, rental property income, self-employment, family contributions, social security, disability, annuities)
+                                        <br>
+                                        <br>Enter it below as a numerical figure (don't add a dollar sign or commas):
 
-                            <input id="monthlyincome" type="text" placeholder="0" />
-                        </label>
-                    </div>
-                </div>
+                                        <input id="monthlyincome" type="text" placeholder="0" />
+                                    </label>
+                                </div>
+                            </div>
 
-                <div class="row">
-                    <div class="meanstestparttwo columns small-12 medium-6">
+                            <div class="row">
+                        <div class="meanstestparttwo columns small-12 medium-6">
                         <label>Select Your County
                             <select id="county">
                                 <option value="traviscounty">Travis County</option>
@@ -136,27 +141,25 @@
                         </label>
                     </div>
 
-                </div>
-
-            </form>
-
-            <div class="buttondiv columns small-12 medium-6">
-                <button id="submitInfo">Submit</button>
-            </div>
-
-
-
         </div>
 
-        <div class="lowerrightbody columns small-12 large-6">
 
-            <h4 class="headline">Are you above or below the median income for your county?</h4>
-            <br>
-            <h5 class="headline">Enter your info and hit the "Submit" button to find out.</h5><p><p>
+        </form>
+
+        <div class="buttondiv columns small-12 medium-6">
+            <button id="submitInfo">Submit</button>
+        </div>
+
+
+    </div>
+
+    <div class="lowerrightbody columns small-12 large-6">
+
+        <h3 class="headline">This is your result:</h4>
 
             <div id="meansTestTravisAnswer"></div>
 
-        </div>
+    </div>
 
     </div>
 
